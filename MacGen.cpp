@@ -9,7 +9,7 @@ int main()
   srand(time(NULL));
   for(int i=0; i<=11; i++)
   {
-    std::cout<<hex_char [rand() % 15];
+    std::cout<<hex_char [rand() % 16];
   }
   std::cout.flush();
   sleep(5);
