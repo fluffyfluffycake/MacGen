@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <time.h>
+#include <unistd.h>
 
 int main() 
 {
@@ -10,5 +11,7 @@ int main()
   {
     std::cout<<hex_char [rand() % 15];
   }
+  std::cout.flush();
+  sleep(5);
   return 0;
 }
